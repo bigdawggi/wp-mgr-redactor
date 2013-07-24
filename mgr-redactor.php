@@ -2,14 +2,16 @@
 /*
 Plugin Name: MGR Redactor
 Plugin URI:
-Version: 1.0
 Description: For logged out visitors, this removes content from a post that's surrounded by <code>[redact]</code> and replaces it with an ellipsis.
+Version: 1.0.1
 Author: Matthew Richmond
 Author URI: http://matthewgrichmond.com
 License: Apache License v2.0
 */
 
 class MGR_Redactor {
+	static $ver = '1.0.1';
+
 	static $i = null;
 	public function i() {
 		if (self::$i === null) {
