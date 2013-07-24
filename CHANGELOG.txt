@@ -1,5 +1,9 @@
 # MGR Redactor CHANGELOG
 
+## 1.0.2
+
+- Updating to allow some feedback (via <del> tags) for a user who is logged in, to be able to see the content that will be redacted for logged out users.
+
 ## 1.0.1
 
 - Updating description
