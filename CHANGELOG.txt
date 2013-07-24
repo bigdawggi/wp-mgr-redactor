@@ -1,0 +1,9 @@
+# MGR Redactor CHANGELOG
+
+## 1.0.1
+
+- Updating description
+
+## 1.0
+
+- Initial Release
