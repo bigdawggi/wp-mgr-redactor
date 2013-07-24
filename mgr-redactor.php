@@ -27,7 +27,7 @@ class MGR_Redactor {
 	public function redact($atts = array(), $content = null) {
 		$content = is_user_logged_in()
 			? '<del>'.$content.'</del>'
-			: '<span class="redacted">'.$content.'</span>';
+			: '<span class="redacted"> &hellip; </span>';
 		return $content;
 	}
 }
