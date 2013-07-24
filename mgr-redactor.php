@@ -2,8 +2,8 @@
 /*
 Plugin Name: MGR Redactor
 Plugin URI:
-Description: Removes content from a post that's surrounded by <code>[redact]</code> and replaces it with an ellipsis.
 Version: 1.0
+Description: For logged out visitors, this removes content from a post that's surrounded by <code>[redact]</code> and replaces it with an ellipsis.
 Author: Matthew Richmond
 Author URI: http://matthewgrichmond.com
 License: Apache License v2.0
