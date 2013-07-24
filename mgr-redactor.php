@@ -23,7 +23,10 @@ class MGR_Redactor {
 	}
 
 	public function redact($atts = array(), $content = null) {
-		return '<span class="redacted"> &hellip; </span>';
+		if (!is_user_logged_in()) {
+			 $content = '<span class="redacted"> &hellip; </span>';
+		}
+		return $content;
 	}
 }
 MGR_Redactor::i()->init();
